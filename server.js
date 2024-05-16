@@ -8,7 +8,7 @@ const cors = require('cors');
 
 const app = express();
 app.use(cors({
-    origin:["http://localhost:3001","http://localhost:3000","https://saycheese-f.onrender.com/","https://saycheese-f-api.onrender.com/"],
+    origin:["http://localhost:3001","http://localhost:3000","https://saycheese-f.onrender.com/","https://saycheese-f-.onrender.com/"],
 }));
 app.use(express.json());
 
